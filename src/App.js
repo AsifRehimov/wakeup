@@ -30,19 +30,6 @@ function App() {
       .then(data => console.log(data))
       .catch(error => console.error('Error:', error));
     console.log(formdata);
-
-
-    // fetch("https://sheet.best/api/sheets/9243d8a4-044a-4478-806e-456fb0af073e",
-    //   {
-    //     method: "GET",
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //   }
-    // )
-    //   .then(response => response.json())
-    //   .then(data => setData(data))
-    //   .catch(err => console.log(err))
   }
 
   useEffect(() => {
